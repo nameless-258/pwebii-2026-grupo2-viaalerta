@@ -1,0 +1,729 @@
+{
+ "metadados": {
+  "descricao": "Dados FICTÍCIOS (denúncias e pessoas) para o modo demonstração do ViaAlerta. Fotografias em public/images/demo/ (ver README, secção Fotografias).",
+  "criado_em": "2026-11-21"
+ },
+ "dataBase": "2026-11-01T08:00:00.000Z",
+ "utilizadores": [
+  {
+   "id": "33333333-3333-4333-8333-333333333333",
+   "nome": "Administrador Demo",
+   "email": "admin@viaalerta.demo",
+   "password": "Admin123!",
+   "funcao": "admin"
+  },
+  {
+   "id": "22222222-2222-4222-8222-222222222222",
+   "nome": "Responsável Demo",
+   "email": "responsavel@viaalerta.demo",
+   "password": "Responsavel123!",
+   "funcao": "responsavel"
+  },
+  {
+   "id": "11111111-1111-4111-8111-111111111111",
+   "nome": "Cidadão Demo",
+   "email": "cidadao@viaalerta.demo",
+   "password": "Cidadao123!",
+   "funcao": "cidadao"
+  },
+  {
+   "id": "44444444-4444-4444-8444-444444444444",
+   "nome": "Utente Fictício",
+   "email": "utente@viaalerta.demo",
+   "password": "Utente123!",
+   "funcao": "cidadao"
+  }
+ ],
+ "incidentes": [
+  {
+   "id": "6513270e-269e-4d37-b2a7-4de452e6b438",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Buraco profundo na Av. do Trabalho",
+   "categoria": "buraco_estrada",
+   "descricao": "Buraco com cerca de 1 metro de diâmetro junto à paragem de chapas. Os carros desviam para a faixa contrária e já houve dois acidentes esta semana.",
+   "provincia": "Nampula",
+   "distrito": "Nampula",
+   "localidade": "Av. do Trabalho, Bairro de Muhala",
+   "latitude": -15.1165,
+   "longitude": 39.2666,
+   "foto": "images/demo/buraco_estrada_1.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-01T08:10:00.000Z",
+   "atualizado_em": "2026-11-03T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-01T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-02T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-03T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "d23f0824-128b-4f33-8c5c-7fd0a6a3a450",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Candeeiros apagados na estrada principal de Gondola",
+   "categoria": "iluminacao_avariada",
+   "descricao": "Há mais de três semanas que cerca de 10 candeeiros não acendem. À noite a zona fica completamente escura e os peões sentem-se inseguros.",
+   "provincia": "Manica",
+   "distrito": "Gondola",
+   "localidade": "Vila de Gondola, estrada principal",
+   "latitude": -19.07,
+   "longitude": 33.65,
+   "foto": "images/demo/iluminacao_avariada_1.jpg",
+   "anonima": true,
+   "estado": "em_resolucao",
+   "criado_em": "2026-11-02T08:11:00.000Z",
+   "atualizado_em": "2026-11-05T12:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-02T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-03T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-04T11:30:00.000Z"
+    },
+    {
+     "estado": "em_resolucao",
+     "nota": "Equipa municipal notificada.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-05T12:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "9531985d-5d9d-49f8-9818-e811892f902b",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Passeio levantado junto à escola primária",
+   "categoria": "passeio_danificado",
+   "descricao": "As lajes do passeio estão soltas e partidas em cerca de 30 metros. As crianças andam pela estrada para evitar o passeio.",
+   "provincia": "Zambézia",
+   "distrito": "Mocuba",
+   "localidade": "Cidade de Mocuba, junto à Escola Primária",
+   "latitude": -16.8392,
+   "longitude": 36.9856,
+   "foto": "images/demo/passeio_danificado_1.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-03T08:12:00.000Z",
+   "atualizado_em": "2026-11-05T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-03T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-04T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-05T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "36f675cc-81e7-4ef5-a8e2-5d940ed90475",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Semáforo avariado no centro de Tete",
+   "categoria": "semaforo_sinal",
+   "descricao": "O semáforo está sempre intermitente desde a chuva forte. Nas horas de ponta forma-se um grande engarrafamento.",
+   "provincia": "Tete",
+   "distrito": "Tete",
+   "localidade": "Centro da cidade de Tete",
+   "latitude": -16.1564,
+   "longitude": 33.5867,
+   "foto": "images/demo/semaforo_sinal_1.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-04T08:13:00.000Z",
+   "atualizado_em": "2026-11-06T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-04T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-05T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-06T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "6b0d549b-6f03-475a-9600-a35a099950d8",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Estrada cortada pela erosão em Ribáuè",
+   "categoria": "erosao",
+   "descricao": "As chuvas abriram uma ravina que está a comer metade da estrada. Os chapas já não passam e a situação piora a cada chuva.",
+   "provincia": "Nampula",
+   "distrito": "Ribáuè",
+   "localidade": "Vila de Ribáuè, estrada de acesso ao mercado",
+   "latitude": -14.9725,
+   "longitude": 38.2725,
+   "foto": "images/demo/erosao_1.jpg",
+   "anonima": false,
+   "estado": "em_resolucao",
+   "criado_em": "2026-11-05T08:14:00.000Z",
+   "atualizado_em": "2026-11-08T12:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-05T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-06T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-07T11:30:00.000Z"
+    },
+    {
+     "estado": "em_resolucao",
+     "nota": "Equipa municipal notificada.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-08T12:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "8d116ece-1738-47d9-bd9c-172411e20b8f",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Vários buracos na EN1 em Caia",
+   "categoria": "buraco_estrada",
+   "descricao": "Troço de cerca de 500 metros com vários buracos que enchem de água quando chove, escondendo a profundidade.",
+   "provincia": "Sofala",
+   "distrito": "Caia",
+   "localidade": "EN1, entrada da vila de Caia",
+   "latitude": -17.8257,
+   "longitude": 35.3386,
+   "foto": "images/demo/buraco_estrada_2.jpg",
+   "anonima": true,
+   "estado": "publicada",
+   "criado_em": "2026-11-06T08:15:00.000Z",
+   "atualizado_em": "2026-11-08T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-06T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-07T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-08T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "90c192cf-d3ac-44af-8f21-ddb66cad4a26",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Iluminação apagada na avenida de Gurué",
+   "categoria": "iluminacao_avariada",
+   "descricao": "Os candeeiros da avenida principal estão desligados. Há muito movimento de pessoas à noite.",
+   "provincia": "Zambézia",
+   "distrito": "Gurué",
+   "localidade": "Avenida principal, cidade de Gurué",
+   "latitude": -15.4628,
+   "longitude": 36.9819,
+   "foto": "images/demo/iluminacao_avariada_1.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-07T08:16:00.000Z",
+   "atualizado_em": "2026-11-09T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-07T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-08T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-09T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "a170b338-3926-4059-b28c-105d1fb17c23",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Semáforos apagados no cruzamento de Chimoio",
+   "categoria": "semaforo_sinal",
+   "descricao": "Os semáforos do cruzamento estão desligados há duas semanas. Os condutores passam sem parar e os peões não conseguem atravessar com segurança.",
+   "provincia": "Manica",
+   "distrito": "Chimoio",
+   "localidade": "Cidade de Chimoio, cruzamento da Av. 25 de Setembro",
+   "latitude": -19.1164,
+   "longitude": 33.4833,
+   "foto": "images/demo/semaforo_sinal_2.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-08T08:17:00.000Z",
+   "atualizado_em": "2026-11-10T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-08T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-09T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-10T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "0fd630f1-f29d-4da9-953f-48f1a09f76b5",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Ravina ameaça casas em Montepuez",
+   "categoria": "erosao",
+   "descricao": "A erosão avançou e a estrada de terra quase desapareceu. Algumas casas estão em risco.",
+   "provincia": "Cabo Delgado",
+   "distrito": "Montepuez",
+   "localidade": "Cidade de Montepuez, bairro periférico",
+   "latitude": -13.1256,
+   "longitude": 38.9997,
+   "foto": "images/demo/erosao_2.jpg",
+   "anonima": false,
+   "estado": "em_resolucao",
+   "criado_em": "2026-11-09T08:18:00.000Z",
+   "atualizado_em": "2026-11-12T12:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-09T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-10T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-11T11:30:00.000Z"
+    },
+    {
+     "estado": "em_resolucao",
+     "nota": "Equipa municipal notificada.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-12T12:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "0cb1e29c-658c-4a14-95e6-0af593bd04cf",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Passeio partido junto à estação de Cuamba",
+   "categoria": "passeio_danificado",
+   "descricao": "Passeio com buracos e tampas de esgoto abertas, perigoso sobretudo à noite.",
+   "provincia": "Niassa",
+   "distrito": "Cuamba",
+   "localidade": "Junto à estação ferroviária de Cuamba",
+   "latitude": -14.8031,
+   "longitude": 36.5372,
+   "foto": "images/demo/passeio_danificado_1.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-10T08:19:00.000Z",
+   "atualizado_em": "2026-11-12T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-10T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-11T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-12T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "8e81973e-0bec-47b0-b898-d190f9ebdacc",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Buraco na estrada para o mercado de Chókwè",
+   "categoria": "buraco_estrada",
+   "descricao": "Buraco grande que obriga os carros e as bicicletas a desviar para a berma.",
+   "provincia": "Gaza",
+   "distrito": "Chókwè",
+   "localidade": "Cidade de Chókwè, estrada do mercado",
+   "latitude": -24.5333,
+   "longitude": 33.0167,
+   "foto": "images/demo/buraco_estrada_3.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-11T08:20:00.000Z",
+   "atualizado_em": "2026-11-13T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-11T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-12T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-13T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "6b4cb242-4a23-4596-a217-beaddbc496cb",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Ponte de acesso danificada pela erosão em Panda",
+   "categoria": "erosao",
+   "descricao": "A água da chuva escavou a terra junto à ponte e a estrada está a ceder.",
+   "provincia": "Inhambane",
+   "distrito": "Panda",
+   "localidade": "Sede do distrito de Panda",
+   "latitude": -24.05,
+   "longitude": 34.73,
+   "foto": "images/demo/erosao_1.jpg",
+   "anonima": false,
+   "estado": "publicada",
+   "criado_em": "2026-11-12T08:21:00.000Z",
+   "atualizado_em": "2026-11-14T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-12T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-13T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-14T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "92276658-1e27-41c0-8a6a-63ec24ede6a4",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Buraco reparado na estrada de Xai-Xai",
+   "categoria": "buraco_estrada",
+   "descricao": "Buraco grande na EN1 à entrada da cidade.",
+   "provincia": "Gaza",
+   "distrito": "Xai-Xai",
+   "localidade": "EN1, entrada da cidade",
+   "latitude": -25.0519,
+   "longitude": 33.6442,
+   "foto": "images/demo/buraco_estrada_1.jpg",
+   "anonima": false,
+   "estado": "resolvida",
+   "criado_em": "2026-11-13T08:22:00.000Z",
+   "atualizado_em": "2026-11-17T13:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-13T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-14T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-15T11:30:00.000Z"
+    },
+    {
+     "estado": "em_resolucao",
+     "nota": "Equipa municipal notificada.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-16T12:30:00.000Z"
+    },
+    {
+     "estado": "resolvida",
+     "nota": "Reparação confirmada no local.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-17T13:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "ae97ba94-d0ed-482f-8f6d-05584ef8aa38",
+   "user_id": "44444444-4444-4444-8444-444444444444",
+   "titulo": "Candeeiros substituídos em Lichinga",
+   "categoria": "iluminacao_avariada",
+   "descricao": "Candeeiros apagados na avenida principal.",
+   "provincia": "Niassa",
+   "distrito": "Lichinga",
+   "localidade": "Av. Samora Machel",
+   "latitude": -13.3128,
+   "longitude": 35.2406,
+   "foto": "images/demo/iluminacao_avariada_1.jpg",
+   "anonima": false,
+   "estado": "resolvida",
+   "criado_em": "2026-11-14T08:23:00.000Z",
+   "atualizado_em": "2026-11-18T13:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "44444444-4444-4444-8444-444444444444",
+     "criado_em": "2026-11-14T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-15T10:30:00.000Z"
+    },
+    {
+     "estado": "publicada",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-16T11:30:00.000Z"
+    },
+    {
+     "estado": "em_resolucao",
+     "nota": "Equipa municipal notificada.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-17T12:30:00.000Z"
+    },
+    {
+     "estado": "resolvida",
+     "nota": "Reparação confirmada no local.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-18T13:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "923a7369-94e3-4f91-9a61-dbe22e44158b",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Buraco na rotunda de Boane",
+   "categoria": "buraco_estrada",
+   "descricao": "Buraco a crescer no meio da rotunda principal, carros a travar de repente.",
+   "provincia": "Maputo Província",
+   "distrito": "Boane",
+   "localidade": "Rotunda principal",
+   "latitude": -26.045,
+   "longitude": 32.327,
+   "foto": "images/demo/buraco_estrada_2.jpg",
+   "anonima": false,
+   "estado": "pendente",
+   "criado_em": "2026-11-15T08:24:00.000Z",
+   "atualizado_em": "2026-11-15T09:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-15T09:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "18f135d2-5f55-4203-b018-50c5a38fd547",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Semáforo sem luz verde em Maxixe",
+   "categoria": "semaforo_sinal",
+   "descricao": "A luz verde do semáforo junto ao mercado não acende.",
+   "provincia": "Inhambane",
+   "distrito": "Maxixe",
+   "localidade": "Junto ao mercado central",
+   "latitude": -23.8597,
+   "longitude": 35.3472,
+   "foto": "images/demo/semaforo_sinal_2.jpg",
+   "anonima": false,
+   "estado": "em_analise",
+   "criado_em": "2026-11-16T08:25:00.000Z",
+   "atualizado_em": "2026-11-17T10:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-16T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-17T10:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "907a70c3-1012-4037-b64c-e4228c38fb29",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Passeio destruído em Marracuene",
+   "categoria": "passeio_danificado",
+   "descricao": "Passeio em mau estado.",
+   "provincia": "Maputo Província",
+   "distrito": "Marracuene",
+   "localidade": "Vila sede",
+   "latitude": -25.74,
+   "longitude": 32.675,
+   "foto": "images/demo/passeio_danificado_1.jpg",
+   "anonima": true,
+   "estado": "precisa_info",
+   "criado_em": "2026-11-17T08:26:00.000Z",
+   "atualizado_em": "2026-11-19T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-17T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-18T10:30:00.000Z"
+    },
+    {
+     "estado": "precisa_info",
+     "nota": "Faltam dados: indique o nome da rua e envie uma fotografia mais próxima do passeio.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-19T11:30:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "7f150524-34b9-45df-9e77-69b10f4205b4",
+   "user_id": "11111111-1111-4111-8111-111111111111",
+   "titulo": "Problema na estrada",
+   "categoria": "buraco_estrada",
+   "descricao": "Estrada estragada algures na cidade.",
+   "provincia": "Maputo Cidade",
+   "distrito": "KaMubukwana",
+   "localidade": "Desconhecido",
+   "latitude": -25.89,
+   "longitude": 32.54,
+   "foto": "images/demo/buraco_estrada_3.jpg",
+   "anonima": false,
+   "estado": "rejeitada",
+   "criado_em": "2026-11-18T08:27:00.000Z",
+   "atualizado_em": "2026-11-20T11:30:00.000Z",
+   "historico": [
+    {
+     "estado": "pendente",
+     "nota": "Denúncia submetida",
+     "actor_id": "11111111-1111-4111-8111-111111111111",
+     "criado_em": "2026-11-18T09:30:00.000Z"
+    },
+    {
+     "estado": "em_analise",
+     "nota": null,
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-19T10:30:00.000Z"
+    },
+    {
+     "estado": "rejeitada",
+     "nota": "Descrição e localização insuficientes para verificar o problema.",
+     "actor_id": "22222222-2222-4222-8222-222222222222",
+     "criado_em": "2026-11-20T11:30:00.000Z"
+    }
+   ]
+  }
+ ]
+}
