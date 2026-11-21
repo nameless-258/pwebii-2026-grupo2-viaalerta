@@ -37,7 +37,7 @@
      ```
    - Guardar e copiar o **Template ID**.
 4. **Account → General**: copiar a **Public Key**.
-5. **Account → Security**: em *Allowed origins* colocar apenas `https://UTILIZADOR.github.io` (e `http://localhost:5173` durante o desenvolvimento).
+5. **Account → Security → Domains**: a restrição de domínios (`https://nameless-258.github.io`) só está disponível nos planos pagos do EmailJS; no plano gratuito fica vazia. A chave usada na aplicação é a **chave pública** do EmailJS, pensada para ser usada no navegador.
 6. Colocar os três valores em `VITE_EMAILJS_PUBLIC_KEY`, `VITE_EMAILJS_SERVICE_ID` e `VITE_EMAILJS_TEMPLATE_ID`.
 
 > Para a demonstração, usar os vossos próprios emails (nunca dados pessoais de terceiros).

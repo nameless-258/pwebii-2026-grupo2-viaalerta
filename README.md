@@ -68,7 +68,7 @@ O detalhe de **quem fez o quê e em que ficheiros** está em [`CONTRIBUICOES.md`
 
 ## 4. Fontes de dados de Moçambique (requisito R2)
 
-Todo o acesso a dados está em `src/composables/useMozambiqueData.js` (pedidos `fetch()`, estados de carregamento/erro/vazio e cache para evitar pedidos repetidos).
+O acesso a dados está em dois composables próprios: `src/composables/useMozambiqueData.js` (limites das províncias, distritos e pesquisa de endereços no Nominatim) e `src/composables/useMozambiqueIndicators.js` (indicadores do Banco Mundial e da ONU). Ambos usam `fetch()`, mostram estados de carregamento, erro e lista vazia, e guardam os dados em cache durante 24 horas para evitar pedidos repetidos.
 
 | Fonte | Utilização | Origem / licença | Recolha |
 |---|---|---|---|
