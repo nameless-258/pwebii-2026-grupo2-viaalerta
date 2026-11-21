@@ -1,0 +1,12 @@
+{
+  "metadados": {
+    "indicador": "ODS 9.1.1 — Rural Access Index (RAI): proporção da população rural que vive a menos de 2 km de uma estrada transitável todo o ano",
+    "fonte": "Banco Mundial (2016), Measuring Rural Access: Using New Technologies, e Policy Research Working Paper 7876 «New Rural Access Index»",
+    "link": "https://documents1.worldbank.org/curated/en/367391472117815229/pdf/107996-REVISED-PUBLIC-MeasuringRuralAccessweb.pdf",
+    "nota": "Ano de referência 2010, igual ao publicado na base de dados dos ODS da ONU (série SP_ROD_R2KM). Estimativa com dados WorldPop (com GPW o valor é 17,9%). Usada apenas se a API da ONU não responder.",
+    "recolhido_em": "2026-11-21"
+  },
+  "pais": "MOZ",
+  "valor": 20.4,
+  "ano": 2010
+}
