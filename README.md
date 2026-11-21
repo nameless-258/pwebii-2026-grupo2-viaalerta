@@ -96,13 +96,9 @@ Configuração passo a passo: [`docs/CONFIGURACAO.md`](docs/CONFIGURACAO.md).
 
 As denúncias fictícias usam fotografias reais de problemas de infraestrutura em Moçambique, **obtidas na Internet** (rostos e matrículas desfocados pelo grupo), em `public/images/demo/` (`buraco_estrada_1..5.jpg`, `erosao_1..3.jpg`, `passeio_danificado_1..2.jpg`, `semaforo_sinal_1..4.jpg`, `iluminacao_avariada_1..3.jpg`), reduzidas para no máximo 1280 px.
 
-| Ficheiros | Origem | Licença / uso |
+| Ficheiros | Origem | Uso |
 |---|---|---|
-| `buraco_estrada_1.jpg` a `buraco_estrada_5.jpg` | Internet — indicar o URL da página de origem de cada foto | Direitos do autor original · uso académico com citação |
-| `erosao_1.jpg` a `erosao_3.jpg` | Internet — indicar o URL da página de origem de cada foto | Direitos do autor original · uso académico com citação |
-| `passeio_danificado_1.jpg`, `passeio_danificado_2.jpg` | Internet — indicar o URL da página de origem de cada foto | Direitos do autor original · uso académico com citação |
-| `semaforo_sinal_1.jpg` a `semaforo_sinal_4.jpg` | Internet — indicar o URL da página de origem de cada foto | Direitos do autor original · uso académico com citação |
-| `iluminacao_avariada_1.jpg` a `iluminacao_avariada_3.jpg` | Internet — indicar o URL da página de origem de cada foto | Direitos do autor original · uso académico com citação |
+| `buraco_estrada_1..5.jpg`, `erosao_1..3.jpg`, `passeio_danificado_1..2.jpg`, `semaforo_sinal_1..4.jpg`, `iluminacao_avariada_1..3.jpg` | Imagens recolhidas na Internet; as páginas de origem não foram registadas | Uso exclusivamente académico e ilustrativo. Os direitos pertencem aos autores originais; rostos e matrículas foram desfocados pelo grupo |
 
 Em respeito pela secção 9 do enunciado («Dados pessoais»), os rostos e as matrículas legíveis foram desfocados pelo grupo.
 
