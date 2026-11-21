@@ -30,7 +30,12 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Build
-        run: npm run build
+        # Remove espaços e quebras de linha que fiquem colados aos secrets ao copiar/colar
+        run: |
+          for v in VITE_SUPABASE_URL VITE_SUPABASE_ANON_KEY VITE_EMAILJS_PUBLIC_KEY VITE_EMAILJS_SERVICE_ID VITE_EMAILJS_TEMPLATE_ID; do
+            export "$v=$(printf '%s' "${!v}" | tr -d '[:space:]')"
+          done
+          npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
